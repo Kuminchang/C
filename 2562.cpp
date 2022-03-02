@@ -14,9 +14,9 @@ int main(void)
         if (max < num[i])
         {
             max = num[i];
-			c = i;
+		c = i+1;
         }
 	}
-	printf("%d\n%d",max,c+1);
+	printf("%d\n%d",max,c);
 	return 0;
 }
